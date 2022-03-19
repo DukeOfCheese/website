@@ -6,32 +6,32 @@
       type="image/x-icon"
       href="/favicon.ico?v=2"/>
 </head>
-<div class="topnav">
-    <a class="active" style="color:#ffd23e" href="#home">Home</a>
-    <a href="#news" style="color:#ffd23e">News</a>
-    <a href="#contact" style="color:#ffd23e">Contact</a>
-    <a href="#about" style="color:#ffd23e">About</a>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Twitch')">Twitch</button>
+    <button class="tablinks" onclick="openCity(event, 'YouTube')">YouTube</button>
   </div>
 <body style="background-color:#121212">
 <h1 style="color:#ffd23e; text-align:center; font: copperplate">DUKEOFCHEESE</h1>
-<p style="text-align: center; font-size:2vw; color:#ffd23e"> Current Stream:</p>
-<div style="text-align: center">
-    <iframe
-        style="outline-color:#121212"
-        src="https://player.twitch.tv/?channel=thedukeofcheese&parent=dukeofcheese.github.io"
-        height="650"
-        width="1000"
-        allowfullscreen></iframe>
+<div id="Twitch" class="tabcontent">
+    <p style="text-align: center; font-size:2vw; color:#ffd23e"> Current Stream:</p>
+    <div style="text-align: center">
+        <iframe
+            style="outline-color:#121212"
+            src="https://player.twitch.tv/?channel=thedukeofcheese&parent=dukeofcheese.github.io"
+            height="650"
+            width="1000"
+            allowfullscreen></iframe>
 </div>
-<p style="text-align: center; font-size:2vw; color:#ffd23e">Latest Video:</p>
-<div style="text-align: center;">
-    <iframe
-        style="outline-color:#121212"
-        width="1000"
-        height="650"
-        src="https://www.youtube.com/embed/MFmqur26pxE"
-        allowfullscreen></iframe>
-</div><br>
+<div id="YouTube" class="tabcontent"></div>
+    <p style="text-align: center; font-size:2vw; color:#ffd23e">Latest Video:</p>
+    <div style="text-align: center;">
+        <iframe
+            style="outline-color:#121212"
+            width="1000"
+            height="650"
+            src="https://www.youtube.com/embed/MFmqur26pxE"
+            allowfullscreen></iframe>
+    </div>
 <footer style="text-align: center; font: aira; font-size:1vw; color:#ffd23e">&copy; DukeOfCheese 2022</footer><br>
 <div style="text-align: center; outline-color:#121212">
 
